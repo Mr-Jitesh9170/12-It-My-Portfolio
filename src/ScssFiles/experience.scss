@@ -1,0 +1,70 @@
+// ========================================== EXPIRIENCE =============>
+.Experience-container {
+  .experience-data {
+    margin-top: 30px;
+    .experience-data-1 {
+      margin: auto auto 13px auto;
+      background-color: yellow;
+      border-radius: 100%;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+    }
+    .experience-data-2 {
+      display: flex;
+      justify-content: center;
+      color: white;
+      gap: 17px;
+      .verticle-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .circle {
+          width: 8px;
+          border-radius: 100%;
+          border: 2px solid #854ce6;
+          height: 8px;
+        }
+        .verticale-bars {
+          margin: 7px 0;
+          background-color: #854ce6;
+          width: 5px;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.company-names {
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+  width: 60%;
+  border-radius: 10px;
+  border: 0.5px solid rgb(133, 76, 230);
+  background-color: #171721;
+  padding: 15px 26px;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.7s;
+  gap: 9px;
+  div {
+    color: #f2f3f4 ;
+    opacity: 60.0%;
+    
+  }
+  &:hover {
+    transform: translatey(-5px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .Experience-container {
+    .experience-data {
+      gap: 10px;
+    }
+  }
+  .company-names {
+    width: 75%;
+  }
+}

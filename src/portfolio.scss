@@ -1,0 +1,80 @@
+:root {
+  --font: "poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+body {
+  background-color: rgb(28, 28, 39);
+  overflow-x: hidden;
+}
+.Portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 69px;
+  
+}
+// ============================= BUTTONS ==============>
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
+  );
+  margin: 10px;
+  border: none;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 2px #eee;
+  border-radius: 20px;
+  display: block;
+  box-shadow: rgb(31, 38, 52) 20px 20px 60px 0px, rgb(31, 38, 52) -20px -20px 60px 0px;
+  font-weight: 600;
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+// ============================= HEADING ==============>
+
+.All-Heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .heading1 {
+    font-family: var(--font);
+    width: fit-content;
+    line-height: 10px;
+    color: #f2f3f4;
+    .underline {
+      height: 3px;
+      background-color: #f64c72;
+    }
+  }
+  p {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;font-size: 20px;
+    color: #b1b2b3;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .All-Heading {
+    .heading1 {
+      font-size: 13px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+// ========================================== SKILLS =============>
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  .skills-data {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    .skills-btn {
+      cursor: pointer;
+      padding: 7px 15px;
+      color: black;
+      background-color: #fff;
+      font-family: var(--font);
+    }
+  }
+}
+
+// -- reusable components --->
+
+.frontend-skills {
+  font-family: "poppins", sans-serif;
+  background-color: #171721;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+  border: 0.5px solid rgb(133, 76, 230);
+  color: #b1b2b3;
+  border-radius: 16px;
+  padding: 5px 15px 25px 15px;
+  .skills-box-1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+  }
+  .skills-box-2 {
+    max-width: 57vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .skills-name-img {
+      background-color: #17172173;
+      display: flex;
+      gap: 17px;
+      align-items: center;
+      border: 0.3px solid #f2f3f474;
+      border-radius: 7px;
+      width: fit-content;
+      padding: 7px 15px;
+      margin: 10px;
+      .img-skills {
+        width: 30px;
+        height: 30px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      li {
+        list-style: none;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// skills --->
+@media only screen and (max-width: 786px) {
+  .skills {
+    .skills-data {
+      .skills-btn {
+        padding: 5px 5px;
+        font-size: 13px;
+      }
+    }
+  }
+  .frontend-skills {
+    .skills-box-2 {
+      max-width: 88vw;
+      .skills-name-img {
+        padding: 5px 8px;
+        li {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+// ========================= EDUCATIONS =============>
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .education-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 40px;
+    gap: 25px;
+  }
+}
+
+// Acedmics Data -------------->
+.Acedmics-details {
+  display: flex;
+  gap: 20px;
+
+  .verticle-bars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    .circle {
+      width: 8px;
+      box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+      height: 8px;
+      background-color: #171721;
+      border: 2px solid rgb(133, 76, 230);
+      border-radius: 100%;
+    }
+    .bars {
+      height: 100%;
+      box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+      background-color: rgb(133, 76, 230);
+      width: 5px;
+    }
+  }
+  .educational-data {
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+    border: 0.5px solid rgb(133, 76, 230);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 16px;
+    transition: all 0.7s;
+    h4 {
+      color: #fff;
+    }
+    p {
+      font-size: 13px;
+      color: #fff;
+      strong {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 0px;
+      transform: translatey(-5px);
+    }
+  }
+}
