@@ -52,7 +52,9 @@ const ProjectsWork = ({ projectImage, proTechno, projectName, projectLink, proje
   return (
     <>
       < div className="project-work-container" >
-        <div className="project-image"><img src={projectImage} alt="" /></div>
+        <div className="project-image">
+          <img src={projectImage} alt="" />
+        </div>
         <div className="project-name">
           <strong>{projectName}</strong>
           <a href={projectLink}>Live</a>

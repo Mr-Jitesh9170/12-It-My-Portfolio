@@ -262,33 +262,41 @@ export const Tools = [
 
 // fontend Projects Data ----------------------=>
 
+
 const FrontendApp = [
   {
     ProjectName: "Dynamically Portfolio.",
     ProjectTechno: ["html", "SCSS", "ReactJS"],
-    ProjectImage: Portfolio,
-    ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
+    ProjectImage: "https://i.postimg.cc/76ZLpFtt/portfolio-APP.jpg",
+    ProjectLink: "https://jitesh-pandey-portfolio.netlify.app/",
+    ProjectWork: "I've meticulously developed my portfolio using React, SCSS, and React Router, blending the power of component-driven development with seamless navigation. The integration of SCSS not only ensures a visually stunning layout but also guarantees a responsive design. Through this project, I showcase not just technical skills but a commitment to delivering an immersive user experience, employing the strengths of React and thoughtful design elements."
   },
   {
     ProjectName: "Wheather APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: wheatherAPP,
+    ProjectImage: "https://i.postimg.cc/FKfs9yVN/wheatherapp.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
     ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
   {
     ProjectName: "Calculator APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS"],
-    ProjectImage: calculatorAPP,
+    ProjectImage: "https://i.postimg.cc/pdq87bJy/calculator.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
     ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
   {
     ProjectName: "Todo APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: TodoAPP,
+    ProjectImage: "https://i.postimg.cc/QMXY1DMM/todo.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
+    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
+  },
+  {
+    ProjectName: "Password Generator.",
+    ProjectTechno: ["html", "CSS", "Javascript"],
+    ProjectImage: "https://drive.google.com/file/d/1CK4PP6BYxCTZOlNSMaKe_I2Gl5-XRE32/view",
+    ProjectLink: "https://passwordgeneratorjitesh.netlify.app/",
     ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   }
 ]
