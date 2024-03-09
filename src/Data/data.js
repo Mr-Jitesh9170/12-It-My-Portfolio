@@ -265,6 +265,12 @@ export const Tools = [
 
 const FrontendApp = [
   {
+    ProjectName: "Easy",
+    ProjectTechno: ["ReactJS", "SASS", "Axios", "Bootstrap", "Tailwind CSS"],
+    ProjectImage: "https://i.postimg.cc/yx6LjvmK/Screenshot-2024-03-09-220528.jpg",
+    ProjectLink: "https://www.easyhaionline.com/",
+  },
+  {
     ProjectName: "Dynamically Portfolio.",
     ProjectTechno: ["html", "SCSS", "ReactJS"],
     ProjectImage: "https://i.postimg.cc/76ZLpFtt/portfolio-APP.jpg",
@@ -292,7 +298,7 @@ const FrontendApp = [
     ProjectName: "Password Generator.",
     ProjectTechno: ["html", "CSS", "Javascript"],
     ProjectImage: "https://drive.google.com/file/d/1CK4PP6BYxCTZOlNSMaKe_I2Gl5-XRE32/view",
-    ProjectLink: "https://passwordgeneratorjitesh.netlify.app/",
+    ProjectLink: "https://i.postimg.cc/3rZhhFBQ/Screenshot-2024-03-09-221751.jpg",
   }
 ]
 
@@ -300,10 +306,34 @@ const FrontendApp = [
 
 const FullStackApp = [
   {
-    ProjectName: "Instagram Clone",
-    ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
+    ProjectName: "EasyhaiOnline-Learning",
+    ProjectTechno: ["ReactJS", "SASS", "Axios", "Bootstrap", "Tailwind CSS", "Nodejs", "Expressjs", "Mongodb", "Mongoose"],
+    ProjectImage: "https://i.postimg.cc/yx6LjvmK/Screenshot-2024-03-09-220528.jpg",
+    ProjectLink: "https://www.easyhaionline.com/",
+  },
+  {
+    ProjectName: "Knobee-Social-Family-App",
+    ProjectTechno: ["Nodejs", "Expressjs", "Mongodb", "Mongoose"],
     ProjectImage: ProjectImage,
-    ProjectLink: "#YouWillHaveToPutLinkHere",
+    ProjectLink: "https://github.com/Mr-Jitesh9170/24-Notes-APP",
+  },
+  {
+    ProjectName: "Notes-App",
+    ProjectTechno: ["Ejs", "CSS", "Nodejs", "Expressjs", "Mongodb", "Mongoose"],
+    ProjectImage: ProjectImage,
+    ProjectLink: "https://github.com/Mr-Jitesh9170/24-Notes-APP",
+  },
+  {
+    ProjectName: "Chat-App",
+    ProjectTechno: ["Reactjs", "SASS", "Axios", "Nodejs", "Socket.io", "Expressjs", "Mongodb", "Mongoose"],
+    ProjectImage: ProjectImage,
+    ProjectLink: "https://github.com/Mr-Jitesh9170/chat-App",
+  },
+  {
+    ProjectName: "Podcast-Website",
+    ProjectTechno: ["Reactjs", "SASS", "Axios", "Nodejs", "Multer", "Expressjs", "Mongodb", "Mongoose"],
+    ProjectImage: ProjectImage,
+    ProjectLink: "https://github.com/Mr-Jitesh9170/17-Podcast-website-",
   },
 ]
 

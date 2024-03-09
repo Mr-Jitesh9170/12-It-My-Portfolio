@@ -16,7 +16,7 @@
     padding: 20px 0px;
     align-items: center;
     z-index: 2;
-    .header-left {
+    .header-left { 
       font-weight: 600;
       color: #f2f3f4;
     }
@@ -79,8 +79,7 @@
 // media----->
 @media only screen and (max-width: 786px) {
   .home-container {
-    justify-content: start;
-    .header {
+     .header {
       display: none;
     }
     .header1 {

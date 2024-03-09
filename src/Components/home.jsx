@@ -47,6 +47,7 @@ export const Home = () => {
           <img src={ThreeDash} alt="" onClick={handleClick} />
         </div>
       </header>
+      
       {show && (<nav className={`navbar-1 ${show ? "transi" : null}`}>
         {NavBar.map((_) => {
           return <a href={_.ID} onClick={handleClick}>{_.Name}</a>
