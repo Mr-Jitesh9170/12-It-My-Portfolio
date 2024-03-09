@@ -27,9 +27,11 @@ export const Home = () => {
 
   return (
     <div className="home-container" id="home">
-      {/* =================================== */}
+
+      {/* --------------header for the Computer --------------- */}
+
       <header className="header">
-        <div className="header-left">&lt; Jitesh /&gt;</div>
+        <h2 className="header-left">&lt; Jitesh /&gt;</h2>
         <nav className="navbar">
           {NavBar.map((_) => {
             return <a href={_.ID}>{_.Name}</a>
@@ -50,11 +52,13 @@ export const Home = () => {
           return <a href={_.ID} onClick={handleClick}>{_.Name}</a>
         })}
       </nav>)}
+
       {/* ==================================== */}
+
       <div className="home-data">
         <div className="home-left">
-          <h1>Hi, I am</h1>
-          <h1>Jitesh Pandey</h1>
+          <h3>Hello 👋 <br />
+            I am Jitesh Pandey</h3>
           <p>I am a <strong>Full Stack Developer</strong></p>
           <p>
             I am a motivated and versatile
@@ -75,6 +79,3 @@ export const Home = () => {
     </div >
   )
 }
-
-
- 

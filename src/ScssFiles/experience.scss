@@ -1,14 +1,15 @@
 // ========================================== EXPIRIENCE =============>
 .Experience-container {
   .experience-data {
-    margin-top: 30px;
+    margin-top: 50px;
     .experience-data-1 {
-      margin: auto auto 13px auto;
-      background-color: yellow;
+      margin: auto auto 25px auto;
+      background-color: #fff;
       border-radius: 100%;
       width: 35px;
       height: 35px;
       text-align: center;
+      color: #f64c72;
     }
     .experience-data-2 {
       display: flex;
@@ -35,22 +36,32 @@
     }
   }
 }
+
+// ========= Reused components ============>
+
 .company-names {
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
   width: 60%;
   border-radius: 10px;
   border: 0.5px solid rgb(133, 76, 230);
   background-color: #171721;
-  padding: 15px 26px;
+  padding: 30px 35px;
   font-family: "poppins", sans-serif;
   display: flex;
   flex-direction: column;
   transition: all 0.7s;
   gap: 9px;
-  div {
-    color: #f2f3f4 ;
-    opacity: 60.0%;
-    
+  .company-heading {
+    color: #f64c72;
+    opacity: 60%;
+    font-size: 12px;
+    strong {
+      font-size: 16px;
+      color: #f2f3f4;
+    }
+    a{
+      color: #9acd32;
+    }
   }
   &:hover {
     transform: translatey(-5px);
@@ -65,6 +76,6 @@
     }
   }
   .company-names {
-    width: 75%;
+    width: 85%;
   }
 }

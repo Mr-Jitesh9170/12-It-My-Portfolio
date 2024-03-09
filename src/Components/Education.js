@@ -13,7 +13,7 @@ export const Educations = () => {
           })
         }
       </div> 
-    </div > 
+    </div >  
   ) 
 } 
 

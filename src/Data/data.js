@@ -269,35 +269,30 @@ const FrontendApp = [
     ProjectTechno: ["html", "SCSS", "ReactJS"],
     ProjectImage: "https://i.postimg.cc/76ZLpFtt/portfolio-APP.jpg",
     ProjectLink: "https://jitesh-pandey-portfolio.netlify.app/",
-    ProjectWork: "I've meticulously developed my portfolio using React, SCSS, and React Router, blending the power of component-driven development with seamless navigation. The integration of SCSS not only ensures a visually stunning layout but also guarantees a responsive design. Through this project, I showcase not just technical skills but a commitment to delivering an immersive user experience, employing the strengths of React and thoughtful design elements."
   },
   {
     ProjectName: "Wheather APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
     ProjectImage: "https://i.postimg.cc/FKfs9yVN/wheatherapp.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
   {
     ProjectName: "Calculator APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS"],
     ProjectImage: "https://i.postimg.cc/pdq87bJy/calculator.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
   {
     ProjectName: "Todo APP.",
     ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
     ProjectImage: "https://i.postimg.cc/QMXY1DMM/todo.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
   {
     ProjectName: "Password Generator.",
     ProjectTechno: ["html", "CSS", "Javascript"],
     ProjectImage: "https://drive.google.com/file/d/1CK4PP6BYxCTZOlNSMaKe_I2Gl5-XRE32/view",
     ProjectLink: "https://passwordgeneratorjitesh.netlify.app/",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   }
 ]
 
@@ -305,32 +300,10 @@ const FrontendApp = [
 
 const FullStackApp = [
   {
-    ProjectName: "Youtube Clone",
-    ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: ProjectImage,
-    ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
-  },
-  {
-    ProjectName: "ShareChat Clone",
-    ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: ProjectImage,
-    ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
-  },
-  {
-    ProjectName: "Whatsapp Clone",
-    ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: ProjectImage,
-    ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
-  },
-  {
     ProjectName: "Instagram Clone",
     ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
     ProjectImage: ProjectImage,
     ProjectLink: "#YouWillHaveToPutLinkHere",
-    ProjectWork: "Made a Wheather app which will give the accurate temprature of any country of city in the world. to make this wheather app i used of some skill which is mentioned above. to get the temprature of any city i used of API to get the accurate temprature."
   },
 ]
 
@@ -342,14 +315,23 @@ export const TechStack = [{ name: "FrontendApp", data: FrontendApp }, { name: " 
 // =============================================================================>
 //======================================= EXPIRIENCE RELATED DATA ========================>
 // =================================================================================================>
+
 export const ExperienceCompanies = [
   {
-    CompanyName: "Harshly Educations and skills PVT. LTD. sector-62",
-    Duration: "(June-Present)",
-    RoleAs: "Software Engineer Development.",
-    WorkingOn: "Working on frontend of the web Application using ReactJS and Redux.",
-    SkillsUsed: ["HTML ,", "CSS ,", "Javascripts ,", "ReactJS ,", "Redux ,", "SCSS ,", "Bootstraps ,", "Tailwind CSS ,", "Material UI"],
+    CompanyName: "Harshly Educations and skills PVT. LTD. Sector-62 Noida",
+    Duration: "(June-Nov)",
+    RoleAs: "Mern Stack Developer/ReactJS developer",
+    WorkingOn: "Worked on Frontend & Backend of EASYHAI-ONLINE web application.",
+    SkillsUsed: ["HTML ,", "CSS ,", "Javascripts ,", "ReactJS ,", "Redux ,", "SCSS ,", "Bootstraps ,", "Tailwind CSS ,", "Material UI ,", "NodeJS ,", "ExpressJS ,", "Mongodb ,", "Mongoose ,", "EJS"],
     LiveProzects: "http://www.easyhaionline.com"
+  },
+  {
+    CompanyName: "KnoBee Social Pvt. Ltd. Sector-59 , Noida",
+    Duration: "(Feb-Present)",
+    RoleAs: "Mern Stack Developer/Full Stack Engineer",
+    WorkingOn: "Currently working on Backend of KNOBEE-SOCIAL MEDIA APP",
+    SkillsUsed: ["HTML ,", "CSS ,", "Javascripts ,", "ReactJS ,", "Redux ,", "SASS ,", "Bootstraps ,", "Tailwind CSS ,", "NodeJS ,", "ExpressJS ,", "Mongodb ,", "Mongoose ,", "EJS"],
+    LiveProzects: "https://play.google.com/store/apps/details?id=com.knoBee"
   }
 ]
 
@@ -362,15 +344,15 @@ export const ExperienceCompanies = [
 export const Input = [
   {
     type: "text",
-    placeholder: "Your name"
+    placeholder: "Name...."
   },
   {
     type: "email",
-    placeholder: "Your email"
+    placeholder: "Email...."
   },
   {
     type: "number",
-    placeholder: "Your number"
+    placeholder: "Number...."
   },
   {
     type: "submit",
@@ -399,7 +381,7 @@ export const Headings = ({ heading, paragraphs }) => {
   return (
     <div className="All-Heading">
       <div className="heading1">
-        <h1>{heading}</h1>
+        <h2>{heading}</h2>
         <div className="underline"></div>
       </div>
       <p>{paragraphs}</p>

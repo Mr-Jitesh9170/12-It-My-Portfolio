@@ -9,13 +9,14 @@
     margin: 20px 0;
     a {
       margin-left: 4px;
-      padding: 7px 15px;
+      padding: 5px 10px;
       text-decoration: none;
       color: black;
       background-color: #fff;
     }
   }
   .project-rendered {
+    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,10 +24,10 @@
   }
 }
 
-// ==========>>>
+// ===== Reused components =====>>>
 
 .project-work-container {
-  max-width: 280px;
+  width: 290px;
   padding: 10px 15px;
   background-color: #171721;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
@@ -60,15 +61,10 @@
     li {
       font-family: "poppins", sans-serif;
       font-size: 0.8rem;
-      font-weight: 600;
       background-color: #201b31;
       border-radius: 9px;
-      padding: 5px 7px;
-      margin: 0 4px;
+      padding: 4px 7px;
       color: #fff;
-      &:hover {
-        border: 1px solid rgb(133, 76, 230);
-      }
     }
   }
   .project-details {
@@ -77,13 +73,13 @@
     text-align: justify;
   }
   &:hover {
-    transform: scale(1.065);
+    transform: scale(1.055);
     border: 0.5px solid rgb(133, 76, 230);
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px;
   }
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .Project-container {
     .ALllinks {
       a {

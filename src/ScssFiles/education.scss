@@ -16,7 +16,8 @@
 .Acedmics-details {
   display: flex;
   gap: 20px;
-
+  width: 100vw;
+  justify-content: center;
   .verticle-bars {
     display: flex;
     flex-direction: column;
@@ -34,30 +35,40 @@
       height: 100%;
       box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
       background-color: rgb(133, 76, 230);
-      width: 5px;
+      width: 3px;
     }
   }
   .educational-data {
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
     border: 0.5px solid rgb(133, 76, 230);
-    width: fit-content;
-    padding: 5px 20px;
+    width: 57%;
+    padding: 20px 24px;
     border-radius: 16px;
     transition: all 0.7s;
     h4 {
+      text-align: center;
+      margin: 6px 0;
       color: #fff;
     }
     p {
       font-size: 13px;
-      color: #fff;
+      color: #f64c72;
       strong {
-        font-size: 18px;
+        font-size: 15px;
         color: #fff;
       }
     }
     &:hover {
       box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 0px;
       transform: translatey(-5px);
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Acedmics-details {
+    .educational-data {
+      width: 85%;
     }
   }
 }

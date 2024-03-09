@@ -5,12 +5,10 @@
   align-items: center;
   width: 40%;
   margin: auto;
+  gap: 24px;
   .aboutme-data {
     .about-me-para {
-      font-family: "poppins", sans-serif;
       color: #f2f3f4aa;
-      text-align: start;
-      font-size: 16px;
       font-weight: 550;
     }
     .buttons {

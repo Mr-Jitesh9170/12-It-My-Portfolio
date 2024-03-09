@@ -10,10 +10,13 @@
     gap: 4px;
     .skills-btn {
       cursor: pointer;
-      padding: 7px 15px;
+      padding: 5px 10px;
       color: black;
       background-color: #fff;
-      font-family: var(--font);
+      transition: all 0.5s;
+      &:hover {
+        color: #f64c72;
+      }
     }
   }
 }
@@ -27,17 +30,19 @@
   border: 0.5px solid rgb(133, 76, 230);
   color: #b1b2b3;
   border-radius: 16px;
-  padding: 5px 15px 25px 15px;
+  padding: 24px 28px;
   .skills-box-1 {
+    border-bottom: 1px solid #f64c72;
+    padding-bottom: 5px;
+    color: #f64c72;
+    width: fit-content;
     text-align: center;
-    text-decoration: underline;
-    color: #fff;
+    margin-bottom: 10px;
   }
   .skills-box-2 {
     max-width: 57vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     .skills-name-img {
       background-color: #17172173;
       display: flex;
@@ -46,7 +51,7 @@
       border: 0.3px solid #f2f3f474;
       border-radius: 7px;
       width: fit-content;
-      padding: 7px 15px;
+      padding: 7px 10px;
       margin: 10px;
       .img-skills {
         width: 30px;
@@ -67,20 +72,22 @@
 }
 
 // skills --->
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .skills {
     .skills-data {
       .skills-btn {
-        padding: 5px 5px;
+        padding: 5px;
         font-size: 13px;
       }
     }
   }
   .frontend-skills {
+    width: 85%;
     .skills-box-2 {
-      max-width: 88vw;
+      width: 100%;
+      justify-content: center;
       .skills-name-img {
-        padding: 5px 8px;
+        padding: 7px 10px;
         li {
           font-size: 13px;
         }

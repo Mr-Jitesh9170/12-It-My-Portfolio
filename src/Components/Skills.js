@@ -3,7 +3,7 @@ import { technologies, frontendSkills, backendSkills, Tools, ProgrammingLangauge
 import "../portfolio.scss"
 import "../ScssFiles/skills.scss"
 
- let Sty = {
+let Sty = {
   0: {
     borderTopLeftRadius: "8px",
     borderBottomLeftRadius: "8px",
@@ -13,7 +13,7 @@ import "../ScssFiles/skills.scss"
     borderBottomRightRadius: "8px",
   }
 }
- 
+
 
 
 export const Skills = () => {
@@ -39,13 +39,11 @@ export const Skills = () => {
           })
         }
       </div>
-      <div>
-        {
-          technologies.map((element, i) => {
-            return (show.name == element) && < AllSkills MernStack={allData[i]} Value={show.value} technoName={element} />
-          })
-        }
-      </div>
+      {
+        technologies.map((element, i) => {
+          return (show.name == element) && < AllSkills MernStack={allData[i]} Value={show.value} technoName={element} />
+        })
+      }
     </div >
   )
 }

@@ -12,7 +12,7 @@ export const AboutMe = () => {
           AboutPara.map((_) => {
             return <p className="about-me-para">{_}</p>
           })
-        }
+        } 
         <Button button={"Connect with me"} />
         <div className="buttons">
           {

@@ -19,7 +19,7 @@ export const Experience = () => {
                   <div className="circle"></div>
                 </div>
                 <CompanyData Data={_} />
-              </div > 
+              </div >
             </div >
           )
         })
@@ -32,29 +32,29 @@ export const Experience = () => {
 const CompanyData = ({ Data }) => {
   return (
     <div className="company-names">
-      <div>
+      <div className="company-heading">
         <strong>Company Name - </strong>
         {Data.CompanyName}
       </div>
-      <div>
+      <div className="company-heading">
         <strong>Duration - </strong>
         {Data.Duration}
       </div>
-      <div>
+      <div className="company-heading">
         <strong>Role As - </strong>
         {Data.RoleAs}
       </div>
-      <div>
+      <div className="company-heading">
         <strong>Working On - </strong>
         {Data.WorkingOn}
       </div>
-      <div>
+      <div className="company-heading">
         <strong>Skills - </strong>
         {Data.SkillsUsed.map(($) => {
           return $
         })}
       </div>
-      <div>
+      <div className="company-heading">
         <strong>Live Project - </strong>
         <a href={Data.LiveProzects}>Live</a>
       </div>
