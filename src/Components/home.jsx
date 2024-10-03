@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { NavBar } from "../Data/data"
 import ThreeDash from "../Assets/threeDash.svg"
 import "../portfolio.scss"
@@ -21,7 +21,6 @@ export const Home = () => {
   const handleClick = () => {
     setShow(true)
   }
-
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -60,10 +59,11 @@ export const Home = () => {
 
       {show && (<nav className={`navbar-1 ${show ? "transi" : null}`} ref={targetRef}>
         {NavBar.map((_) => {
-          return <a href={_.ID} onClick={handleClick}>• {_.Name}</a>
+          return <a href={_.ID} onClick={() => setShow(false)}>• {_.Name}</a>
         })}
         <span onClick={() => setShow(false)}>X</span>
-      </nav>)}
+      </nav>)
+      }
 
       {/* ==================================== */}
 
