@@ -7,7 +7,9 @@ import { Skills } from "./Components/Skills";
 import { Projects } from "./Components/projects";
 import { Experience } from "./Components/experience";
 import { ContactMe } from "./Components/contactme";
+
 let Compositions = [< Home />, < AboutMe />, <Educations />, <Skills />, <Projects />, <Experience />, <ContactMe />]
+
 export const Portfolio = () => {
   return (
     <div className="Portfolio-container">

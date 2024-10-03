@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React, { useRef, useState,useEffect } from "react";
 import { NavBar } from "../Data/data"
 import ThreeDash from "../Assets/threeDash.svg"
 import "../portfolio.scss"
 import "../ScssFiles/home.scss"
+
 export const Home = () => {
   const [show, setShow] = useState(false);
+  const targetRef = useRef()
   const onButtonClick = () => {
-    // using Java Script method to get PDF file 
     fetch('resume.pdf').then(response => {
       response.blob().then(blob => {
-        // Creating new object of PDF file 
         const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values 
         let alink = document.createElement('a');
         alink.href = fileURL;
         alink.download = 'resume.pdf';
@@ -19,11 +18,22 @@ export const Home = () => {
       })
     })
   }
-
-
   const handleClick = () => {
-    show ? setShow(false) : setShow(true)
+    setShow(true)
   }
+
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (targetRef.current && !targetRef.current.contains(event.target)) {
+        setShow(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="home-container" id="home">
@@ -47,11 +57,12 @@ export const Home = () => {
           <img src={ThreeDash} alt="" onClick={handleClick} />
         </div>
       </header>
-      
-      {show && (<nav className={`navbar-1 ${show ? "transi" : null}`}>
+
+      {show && (<nav className={`navbar-1 ${show ? "transi" : null}`} ref={targetRef}>
         {NavBar.map((_) => {
-          return <a href={_.ID} onClick={handleClick}>{_.Name}</a>
+          return <a href={_.ID} onClick={handleClick}>• {_.Name}</a>
         })}
+        <span onClick={() => setShow(false)}>X</span>
       </nav>)}
 
       {/* ==================================== */}

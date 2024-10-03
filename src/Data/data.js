@@ -315,7 +315,7 @@ const FullStackApp = [
     ProjectName: "Knobee-Social-Family-App",
     ProjectTechno: ["Nodejs", "Expressjs", "Mongodb", "Mongoose"],
     ProjectImage: ProjectImage,
-    ProjectLink: "https://github.com/Mr-Jitesh9170/24-Notes-APP",
+    ProjectLink: "https://play.google.com/store/apps/details?id=com.knoBee",
   },
   {
     ProjectName: "Notes-App",
@@ -327,7 +327,7 @@ const FullStackApp = [
     ProjectName: "Chat-App",
     ProjectTechno: ["Reactjs", "SASS", "Axios", "Nodejs", "Socket.io", "Expressjs", "Mongodb", "Mongoose"],
     ProjectImage: ProjectImage,
-    ProjectLink: "https://github.com/Mr-Jitesh9170/chat-App",
+    ProjectLink: " https://chit-chat-app-1.netlify.app",
   },
   {
     ProjectName: "Podcast-Website",
@@ -349,15 +349,15 @@ export const TechStack = [{ name: "FrontendApp", data: FrontendApp }, { name: " 
 export const ExperienceCompanies = [
   {
     CompanyName: "Harshly Educations and skills PVT. LTD. Sector-62 Noida",
-    Duration: "(June-Nov)",
-    RoleAs: "Mern Stack Developer/ReactJS developer",
+    Duration: "(Jan-2023 - Jan-2024)",
+    RoleAs: "Mern Stack Developer",
     WorkingOn: "Worked on Frontend & Backend of EASYHAI-ONLINE web application.",
     SkillsUsed: ["HTML ,", "CSS ,", "Javascripts ,", "ReactJS ,", "Redux ,", "SCSS ,", "Bootstraps ,", "Tailwind CSS ,", "Material UI ,", "NodeJS ,", "ExpressJS ,", "Mongodb ,", "Mongoose ,", "EJS"],
     LiveProzects: "http://www.easyhaionline.com"
   },
   {
-    CompanyName: "KnoBee Social Pvt. Ltd. Sector-59 , Noida",
-    Duration: "(Feb-Present)",
+    CompanyName: "KnoBee Social Pvt. Ltd. Sector-63 , Noida",
+    Duration: "(Feb-2024 - Present)",
     RoleAs: "Mern Stack Developer/Full Stack Engineer",
     WorkingOn: "Currently working on Backend of KNOBEE-SOCIAL MEDIA APP",
     SkillsUsed: ["HTML ,", "CSS ,", "Javascripts ,", "ReactJS ,", "Redux ,", "SASS ,", "Bootstraps ,", "Tailwind CSS ,", "NodeJS ,", "ExpressJS ,", "Mongodb ,", "Mongoose ,", "EJS"],
