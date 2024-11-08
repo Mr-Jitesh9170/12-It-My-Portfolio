@@ -10,16 +10,16 @@ export const ContactMe = () => {
         <div className="contactme-box1">
           <h3>Email Me</h3>
           {
-            Input.map((_) => {
-              return (_.type === "submit") ? <input type={_.type} placeholder={_.placeholder} className="btn-grad" /> : <input type={_.type} placeholder={_.placeholder} />
+            Input.map((_, i) => {
+              return (_.type === "submit") ? <input key={i} type={_.type} placeholder={_.placeholder} className="btn-grad" /> : <input key={i} type={_.type} placeholder={_.placeholder} />
             })
           }
         </div>
         <div className="contactme-box2">
           {
-            Contact.map((_) => {
+            Contact.map((_, i) => {
               return (
-                <a href={_.href}>
+                <a href={_.href} key={i}>
                   <img src={_.img} width={30} alt="" />
                 </a>
               )

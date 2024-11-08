@@ -25,12 +25,12 @@ export const Skills = () => {
       <div className="skills-data">
         {
           technologies.map((element, i) => {
-            return (i == 0 || i == 3) ? <div className="skills-btn" onClick={(event) => {
+            return (i === 0 || i === 3) ? <div key={i} className="skills-btn" onClick={(event) => {
               setShow({
                 name: event.target.innerHTML,
                 value: true
               })
-            }} style={Sty[i]}>{element}</div> : <div className="skills-btn" onClick={(event) => {
+            }} style={Sty[i]}>{element}</div> : <div key={i} className="skills-btn" onClick={(event) => {
               setShow({
                 name: event.target.innerHTML,
                 value: true
@@ -41,7 +41,7 @@ export const Skills = () => {
       </div>
       {
         technologies.map((element, i) => {
-          return (show.name == element) && < AllSkills MernStack={allData[i]} Value={show.value} technoName={element} />
+          return (show.name === element) && < AllSkills key={i} MernStack={allData[i]} Value={show.value} technoName={element} />
         })
       }
     </div >

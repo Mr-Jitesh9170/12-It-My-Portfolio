@@ -8,8 +8,8 @@ export const Educations = () => {
       <Headings heading="Education" paragraphs="My education has been a journey of self-discovery and growth. My educational details are as follows." />
       <div className="education-content">
         {
-          EducationalData.map((_) => {
-            return <Acedmics schoolName={_.SchoolName} course={_.Course} branch={_.Branch} />
+          EducationalData.map((_,i) => {
+            return <Acedmics key={i} schoolName={_.SchoolName} course={_.Course} branch={_.Branch} />
           })
         }
       </div> 

@@ -10,7 +10,7 @@ export const Experience = () => {
       {
         ExperienceCompanies.map((_, i) => {
           return (
-            <div className="experience-data">
+            <div className="experience-data" key={i}>
               <h1 className="experience-data-1">{i + 1}</h1>
               <div className="experience-data-2">
                 <div className="verticle-box">

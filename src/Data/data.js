@@ -15,6 +15,9 @@ import BOOTstrap from "../Assets/bootstrap.svg"
 import Tailwind from "../Assets/tailwind.svg"
 import Reactjs from "../Assets/reactjs.svg"
 import Redux from "../Assets/redux.svg"
+import MaterialUi from "../Assets/materialUI.svg"
+import mediaQuery from "../Assets/media.png"
+
 
 // backened icons  ===>
 import NODEJS from "../Assets/nodejs.svg"
@@ -36,7 +39,8 @@ import BITbucket from "../Assets/bitBucket.svg"
 import ProjectImage from "../Assets/ProjectImages/projectimage.jpg"
 import wheatherAPP from "../Assets/ProjectImages/wheatherapp.jpg"
 import TodoAPP from "../Assets/ProjectImages/todo.jpg"
-import calculatorAPP from "../Assets/ProjectImages/calculator.jpg"
+import Karkiosk from "../Assets/ProjectImages/karkiosk.png"
+import Knobee from "../Assets/ProjectImages/knobee.png"
 import Portfolio from "../Assets/ProjectImages/portfolioAPP.jpg"
 // -------------------------------------------- ContactMe Data Importing ------------>
 import EmailBtn from "../Assets/emailbtn.svg"
@@ -167,7 +171,7 @@ export const frontendSkills = [
   },
   {
     id: 6,
-    img: Tailwind,
+    img: MaterialUi,
     language: "Material UI"
   },
   {
@@ -187,7 +191,7 @@ export const frontendSkills = [
   },
   {
     id: 9,
-    img: Redux,
+    img: mediaQuery,
     language: "Media Quries"
   }
 ]
@@ -253,6 +257,11 @@ export const Tools = [
     id: 4,
     img: BITbucket,
     language: "Bit Bucket"
+  },
+  {
+    id: 5,
+    img: "https://cdn-icons-png.flaticon.com/512/5968/5968875.png",
+    language: "Jira"
   }
 ]
 
@@ -265,28 +274,28 @@ export const Tools = [
 
 const FrontendApp = [
   {
-    ProjectName: "Easy",
+    ProjectName: "Easyhai Online",
     ProjectTechno: ["ReactJS", "SASS", "Axios", "Bootstrap", "Tailwind CSS"],
     ProjectImage: "https://i.postimg.cc/yx6LjvmK/Screenshot-2024-03-09-220528.jpg",
     ProjectLink: "https://www.easyhaionline.com/",
   },
   {
+    ProjectName: "karkiosk",
+    ProjectTechno: ["html", "SCSS", "Javascript", "ReactJS", "Fetch API", "PHP", "Laravel"],
+    ProjectImage: Karkiosk,
+    ProjectLink: "https://karkiosk.com/",
+  },
+  {
+    ProjectName: "Knobee Social India Pvt Ltd",
+    ProjectTechno: ["html", "SCSS", "Javascript", "ReactJS", "Axios"],
+    ProjectImage: Knobee,
+    ProjectLink: "#YouWillHaveToPutLinkHere",
+  },
+  {
     ProjectName: "Dynamically Portfolio.",
-    ProjectTechno: ["html", "SCSS", "ReactJS"],
+    ProjectTechno: ["html", "SCSS", "Javascript", "ReactJS"],
     ProjectImage: "https://i.postimg.cc/76ZLpFtt/portfolio-APP.jpg",
     ProjectLink: "https://jitesh-pandey-portfolio.netlify.app/",
-  },
-  {
-    ProjectName: "Wheather APP.",
-    ProjectTechno: ["html", "SCSS", "ReactJS", "Fetch API"],
-    ProjectImage: "https://i.postimg.cc/FKfs9yVN/wheatherapp.jpg",
-    ProjectLink: "#YouWillHaveToPutLinkHere",
-  },
-  {
-    ProjectName: "Calculator APP.",
-    ProjectTechno: ["html", "SCSS", "ReactJS"],
-    ProjectImage: "https://i.postimg.cc/pdq87bJy/calculator.jpg",
-    ProjectLink: "#YouWillHaveToPutLinkHere",
   },
   {
     ProjectName: "Todo APP.",
@@ -294,12 +303,7 @@ const FrontendApp = [
     ProjectImage: "https://i.postimg.cc/QMXY1DMM/todo.jpg",
     ProjectLink: "#YouWillHaveToPutLinkHere",
   },
-  {
-    ProjectName: "Password Generator.",
-    ProjectTechno: ["html", "CSS", "Javascript"],
-    ProjectImage: "https://drive.google.com/file/d/1CK4PP6BYxCTZOlNSMaKe_I2Gl5-XRE32/view",
-    ProjectLink: "https://i.postimg.cc/3rZhhFBQ/Screenshot-2024-03-09-221751.jpg",
-  }
+
 ]
 
 // full Stack Projects Data ----------------------=>

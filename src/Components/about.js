@@ -9,15 +9,15 @@ export const AboutMe = () => {
       <Headings heading={"About Me"} paragraphs={"It is the Brief Introduction About Myself."} />
       <div className="aboutme-data">
         {
-          AboutPara.map((_) => {
-            return <p className="about-me-para">{_}</p>
+          AboutPara.map((_, i) => {
+            return <p key={i} className="about-me-para">{_}</p>
           })
-        } 
+        }
         <Button button={"Connect with me"} />
         <div className="buttons">
           {
-            SocialMediaButton.map((_) => {
-              return <a href={_.Url}><img src={_.img} width={30} /></a>
+            SocialMediaButton.map((_, i) => {
+              return <a key={i} href={_.Url}><img src={_.img} width={30} alt="loading" /></a>
             })
           }
         </div>

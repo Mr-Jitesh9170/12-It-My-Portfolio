@@ -43,12 +43,13 @@
     max-width: 57vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: start;
     .skills-name-img {
       background-color: #17172173;
       display: flex;
+      flex-direction: column;
       gap: 17px;
       align-items: center;
-      border: 0.3px solid #f2f3f474;
       border-radius: 7px;
       width: fit-content;
       padding: 7px 10px;
@@ -66,6 +67,7 @@
       li {
         list-style: none;
         font-weight: 600;
+        text-wrap: nowrap;
       }
     }
   }
@@ -85,7 +87,7 @@
     width: 85%;
     .skills-box-2 {
       width: 100%;
-      justify-content: center;
+      justify-content: space-evenly;
       .skills-name-img {
         padding: 7px 10px;
         li {

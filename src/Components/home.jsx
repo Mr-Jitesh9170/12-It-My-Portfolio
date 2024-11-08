@@ -85,7 +85,7 @@ export const Home = () => {
           <button className="btn-grad" onClick={onButtonClick}>Check RESUME</button>
         </div>
         <div className="home-right">
-          <img src='https://i.postimg.cc/R0SpPLXG/1699335737213-1.jpg' />
+          <img src='https://i.postimg.cc/R0SpPLXG/1699335737213-1.jpg' alt="loading" />
         </div>
       </div>
     </div >

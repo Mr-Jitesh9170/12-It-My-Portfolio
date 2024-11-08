@@ -21,13 +21,20 @@ export const Projects = () => {
       <div className="ALllinks">
         {
           TechStack.map((_, i) => {
-            return (i == 0 || i == 1) ? <a href="" onClick={(event) => {
-              event.preventDefault()
-              setShow(event.target.innerHTML)
-            }} style={Sty[i]} >{_.name}</a> : <a href="" onClick={(event) => {
-              event.preventDefault()
-              setShow(event.target.innerHTML)
-            }}>{_.name}</a>
+            return (i === 0 || i === 1) ?
+              (
+                <a href="#nothing" onClick={(event) => {
+                  event.preventDefault()
+                  setShow(event.target.innerHTML)
+                }} style={Sty[i]} >{_.name}</a>
+              )
+              :
+              (
+                <a href="#nothing" onClick={(event) => {
+                  event.preventDefault()
+                  setShow(event.target.innerHTML)
+                }}>{_.name}</a>
+              )
           })
         }
       </div>
@@ -35,7 +42,7 @@ export const Projects = () => {
         {TechStack.map((_) => {
           return (
             <>
-              {(show == _.name) && (_.data.map((element) => {
+              {(show === _.name) && (_.data.map((element) => {
                 return <ProjectsWork projectImage={element.ProjectImage} proTechno={element.ProjectTechno} projectName={element.ProjectName} projectLink={element.ProjectLink} projectDetails={element.ProjectWork} />
               }))}
             </>
