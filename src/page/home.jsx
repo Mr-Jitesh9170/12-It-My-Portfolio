@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { NavBar } from "../Data/data"
 import ThreeDash from "../Assets/threeDash.svg"
 import "../portfolio.scss"
-import "../ScssFiles/home.scss"
+import "../styles/home.scss"
 
 export const Home = () => {
   const [show, setShow] = useState(false);
@@ -36,9 +36,6 @@ export const Home = () => {
 
   return (
     <div className="home-container" id="home">
-
-      {/* --------------header for the Computer --------------- */}
-
       <header className="header">
         <h2 className="header-left">&lt; Jitesh /&gt;</h2>
         <nav className="navbar">
@@ -47,9 +44,6 @@ export const Home = () => {
           })}
         </nav>
       </header>
-
-      {/* --------------header for the phone--------------- */}
-
       <header className="header1">
         <div className="header-left-1">&lt; Jitesh /&gt;</div>
         <div className="header-right-1">
@@ -64,9 +58,6 @@ export const Home = () => {
         <span onClick={() => setShow(false)}>X</span>
       </nav>)
       }
-
-      {/* ==================================== */}
-
       <div className="home-data">
         <div className="home-left">
           <h3>Hello 👋 <br />

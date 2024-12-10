@@ -1,6 +1,6 @@
 import React from "react";
 import "../portfolio.scss"
-import "../ScssFiles/about.scss"
+import "../styles/about.scss"
 import { Headings, Button, SocialMediaButton, AboutPara } from "../Data/data"
 
 export const AboutMe = () => {

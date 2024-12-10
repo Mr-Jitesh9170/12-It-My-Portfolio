@@ -1,0 +1,35 @@
+.company-names {
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px 0px;
+  width: 60%;
+  border-radius: 10px;
+  border: 0.5px solid rgb(133, 76, 230);
+  background-color: #171721;
+  padding: 30px 35px;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.7s;
+  gap: 9px;
+  .company-heading {
+    color: #f64c72;
+    opacity: 60%;
+    font-size: 12px;
+    strong {
+      font-size: 16px;
+      color: #f2f3f4;
+    }
+    a {
+      color: #9acd32;
+    }
+  }
+  &:hover {
+    transform: translatey(-5px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .company-names {
+    width: 85%;
+  }
+}

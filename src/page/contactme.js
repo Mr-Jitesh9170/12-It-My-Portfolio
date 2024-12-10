@@ -1,6 +1,6 @@
 import React from "react";
 import "../portfolio.scss"
-import "../ScssFiles/contactMe.scss"
+import "../styles/contactMe.scss"
 import { Input, Contact, Headings } from "../Data/data";
 export const ContactMe = () => {
   return (

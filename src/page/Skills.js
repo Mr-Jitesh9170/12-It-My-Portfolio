@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { technologies, frontendSkills, backendSkills, Tools, ProgrammingLangauges, Headings } from "../Data/data";
 import "../portfolio.scss"
-import "../ScssFiles/skills.scss"
+import "../styles/skills.scss"
+import AllSkills from "../component/skills/skills";
+
 
 let Sty = {
   0: {
@@ -13,8 +15,6 @@ let Sty = {
     borderBottomRightRadius: "8px",
   }
 }
-
-
 
 export const Skills = () => {
   const [show, setShow] = useState({ name: "Frontend", value: false })
@@ -46,31 +46,4 @@ export const Skills = () => {
       }
     </div >
   )
-}
-
-
-// -------------------- to reuse this componets ------------------>
-
-const AllSkills = ({ MernStack, Value, technoName }) => {
-  return (
-    < div className="frontend-skills">
-      <h3 className="skills-box-1">{technoName}</h3>
-      <div className="skills-box-2">
-        {MernStack.map((element, i) => {
-          return (
-            <>
-              <div className={`skills-name-img ${Value ? "yes" : null}`}>
-                <li className="img-skills">
-                  <img src={element.img} alt="" />
-                </li>
-                <li>{element.language}</li>
-              </div>
-            </>
-          )
-        })}
-      </div>
-    </div>
-  )
-}
-
-
+} 

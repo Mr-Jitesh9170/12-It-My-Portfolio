@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { TechStack, Headings } from "../Data/data";
 import "../portfolio.scss"
-import "../ScssFiles/project.scss"
+import "../styles/project.scss"
+import ProjectsWork from "../component/project/projectWork";
 
 let Sty = {
   0: {
@@ -13,6 +14,7 @@ let Sty = {
     borderBottomRightRadius: "8px",
   }
 }
+
 export const Projects = () => {
   const [show, setShow] = useState("FrontendApp");
   return (
@@ -51,25 +53,4 @@ export const Projects = () => {
       </div>
     </div>
   )
-}
-
-
-// -------------------------- to resuse  this  components -------------- >
-const ProjectsWork = ({ projectImage, proTechno, projectName, projectLink, projectDetails }) => {
-  return (
-    < div className="project-work-container" >
-      <div className="project-image">
-        <img src={projectImage} alt="" />
-      </div>
-      <div className="project-name">
-        <strong>{projectName}</strong>
-        <a href={projectLink}>Live</a>
-      </div>
-      <div className="project-techno">
-        {proTechno.map((skill) => {
-          return <li>{skill}</li>
-        })}
-      </div>
-    </div >
-  )
-}
+} 

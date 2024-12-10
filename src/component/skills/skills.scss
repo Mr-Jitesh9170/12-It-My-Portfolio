@@ -1,28 +1,3 @@
-// ========================================== SKILLS =============>
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  .skills-data {
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-    .skills-btn {
-      cursor: pointer;
-      padding: 5px 10px;
-      color: black;
-      background-color: #fff;
-      transition: all 0.5s;
-      &:hover {
-        color: #f64c72;
-      }
-    }
-  }
-}
-
-// -- reusable components --->
-
 .frontend-skills {
   font-family: "poppins", sans-serif;
   background-color: #171721;
@@ -73,16 +48,8 @@
   }
 }
 
-// skills --->
 @media only screen and (max-width: 600px) {
-  .skills {
-    .skills-data {
-      .skills-btn {
-        padding: 5px;
-        font-size: 13px;
-      }
-    }
-  }
+  
   .frontend-skills {
     width: 85%;
     .skills-box-2 {
